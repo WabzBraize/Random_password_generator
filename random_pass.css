@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing:border-box;
+}
+body{
+background: #010019;
+text-align:center;
+overflow:hidden;
+color:#fff;
+}
+
+.password-container{
+background:#00053F;
+padding:1rem;
+width:310px;
+margin:3rem auto;
+position:relative;
+border-radius:1rem;
+box-shadow:-10px 20px 40px rgba(0,0,0,0.25);
+color: #fff;
+}
+
+.password-area{
+background: #070075;
+padding:.5rem;
+margin:1.5rem 0;
+word-wrap:break-word;
+position:relative;
+}
+
+.copy-btn{
+position:absolute;
+right:0;
+height:100%;
+top:0;
+padding:0 .8rem;
+border:none;
+background:royalblue;
+z-index:99;
+color:#fff;
+}
+
+.includes{
+}
+
+.input-group{
+display:flex;
+justify-content:space-between;
+margin:1.5rem 0;
+}
+
+.btn{
+display:block;
+padding:.5rem;
+width:100%;
+color:#fff;
+background:orangered;
+border:none;
+font-family:inherit;
+}
+
+#passLen{
+width:50px;
+}
+
+.toast-btn{
+background:royalblue;
+color:#fff;
+font-style:italic;
+border:none;
+padding:.3rem 1rem;
+position:fixed;
+top:0;
+left:50%;
+transform:translateX(-50%);
+border-radius:.4rem;
+}
